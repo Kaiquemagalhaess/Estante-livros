@@ -1,0 +1,149 @@
+/* Estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #388e3c;
+}
+
+/* Navegação */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #4caf50;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Cabeçalhos */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estante de livros */
+.shelf {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.shelf h2 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+}
+
+/* Livros */
+.book-card {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-card img {
+  width: 60px;
+  height: 90px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.book-card h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #4caf50;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.book-card select {
+  margin-left: auto;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.book-card select:hover {
+  border-color: #4caf50;
+}
+
+/* Campo de busca */
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.search-bar input:focus {
+  border-color: #388e3c;
+  box-shadow: 0 0 5px rgba(72, 239, 128, 0.5);
+}
+
+/* Contêiner principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
